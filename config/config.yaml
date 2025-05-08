@@ -1,0 +1,3 @@
+data_ingestion: bucket_name = "first_bucket889"
+  bucket_file_name = "Hotel_Reservations.csv"
+  train_ratio = 0.8
