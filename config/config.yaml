@@ -1,3 +1,6 @@
-data_ingestion: bucket_name = "first_bucket889"
-  bucket_file_name = "Hotel_Reservations.csv"
-  train_ratio = 0.8
+data_ingestion:
+  bucket_name: "first_bucket889"
+  bucket_file_name: "Hotel_Reservations.csv"
+  train_ratio: 0.8
+  credentials_path: "C:\\Users\\USER\\Desktop\\code\\GCP-LL\\personal\\powerful-genre-457909-p3-554b3e67e3de.json"
+  scopes: "https://www.googleapis.com/auth/devstorage.read_only"
